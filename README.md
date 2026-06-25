@@ -95,7 +95,7 @@ To run as a background service, consider using `systemd` or `screen`.
 
 ## CAN Bus Variable Reference
 
-Variables are derived from the IVT rego1000 protocol. The CAN IDs are computed as:
+Variables are derived from the IVT Rego 1000 protocol. The CAN IDs are computed as:
 
 ```python
 hex((idx << 14) | 201342944)
