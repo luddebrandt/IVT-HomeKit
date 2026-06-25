@@ -101,7 +101,7 @@ Variables are derived from the IVT Rego 1000 protocol. The CAN IDs are computed 
 hex((idx << 14) | 201342944)
 ```
 
-where `idx` is the variable index from the Rego 1000 variable list.
+where `idx` is the variable index from the Rego 1000 variable list. More info can be found at https://github.com/jagheterfredrik/esphome-rego1000.
 
 ## Grafana
 
