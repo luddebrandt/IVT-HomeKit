@@ -102,3 +102,8 @@ hex((idx << 14) | 201342944)
 ```
 
 where `idx` is the variable index from the rego1000 variable list.
+
+## Grafana
+
+<img width="1331" height="1048" alt="Skärmbild 2026-06-25 143128" src="https://github.com/user-attachments/assets/c485fbf4-d420-49d4-9ef3-1b60b721715e" />
+
