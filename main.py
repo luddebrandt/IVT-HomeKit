@@ -49,6 +49,7 @@ class Thermostat1(Accessory):
             self.char_temp3.set_value(1)
         else:
             self.char_temp3.set_value(0)
+            
 #Warm water
 class Thermostat3(Accessory):
 
@@ -82,6 +83,7 @@ class Thermostat3(Accessory):
             self.char_temp3.set_value(1)
         else:
             self.char_temp3.set_value(0)
+            
 #Värmepump
 class Thermostat4(Accessory):
 
@@ -115,6 +117,7 @@ class Thermostat4(Accessory):
             self.char_temp3.set_value(1)
         else:
             self.char_temp3.set_value(0)
+            
 '''
 #Hot gas
 class HeaterCooler6(Accessory):
@@ -141,6 +144,7 @@ class HeaterCooler6(Accessory):
         temp = readIVT.GT6
         self.char_temp4.set_value(temp)
 '''
+
 #Radiator forward
 class TemperatureSensor1(Accessory):
 
@@ -156,6 +160,7 @@ class TemperatureSensor1(Accessory):
     async def run(self):
         temp = readIVT.GT1
         self.char_temp.set_value(temp)
+        
 #Outdoor
 class TemperatureSensor2(Accessory):
 
@@ -171,6 +176,7 @@ class TemperatureSensor2(Accessory):
     async def run(self):
         temp = readIVT.GT2
         self.char_temp.set_value(temp)
+        
 #Warm water
 class TemperatureSensor3(Accessory):
 
@@ -186,6 +192,7 @@ class TemperatureSensor3(Accessory):
     async def run(self):
         temp = readIVT.GT3
         self.char_temp.set_value(temp)
+        
 #Hot gas
 class TemperatureSensor6(Accessory):
 
@@ -201,6 +208,7 @@ class TemperatureSensor6(Accessory):
     async def run(self):
         temp = readIVT.GT6
         self.char_temp.set_value(temp)
+        
 #Heat fluid out
 class TemperatureSensor8(Accessory):
 
@@ -216,6 +224,7 @@ class TemperatureSensor8(Accessory):
     async def run(self):
         temp = readIVT.GT8
         self.char_temp.set_value(temp)
+        
 #Heat fluid in
 class TemperatureSensor9(Accessory):
 
@@ -231,6 +240,7 @@ class TemperatureSensor9(Accessory):
     async def run(self):
         temp = readIVT.GT9
         self.char_temp.set_value(temp)
+        
 #Cold fluid in
 class TemperatureSensor10(Accessory):
 
@@ -246,6 +256,7 @@ class TemperatureSensor10(Accessory):
     async def run(self):
         temp = readIVT.GT10
         self.char_temp.set_value(temp)
+        
 #Cold fluid out
 class TemperatureSensor11(Accessory):
 
@@ -261,6 +272,7 @@ class TemperatureSensor11(Accessory):
     async def run(self):
         temp = readIVT.GT11
         self.char_temp.set_value(temp)
+        
 #VK1 setpoint
 class TemperatureSensor12(Accessory):
 
