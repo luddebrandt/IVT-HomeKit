@@ -1,6 +1,6 @@
 # IVT Heat Pump HomeKit Bridge
 
-A Raspberry Pi bridge that exposes an IVT heat pump's sensors and thermostats to Apple HomeKit via the HAP-python library. Temperature readings and compressor state are read over CAN bus and updated every 2 minutes. Reading are saved in a SQLite database and can be visualized using Grafana.
+A Raspberry Pi bridge that exposes an IVT heat pump's sensors and thermostats to Apple HomeKit via the HAP-python library. Temperature readings and compressor state are read over CAN bus and updated every 2 minutes.
 
 ## Overview
 
@@ -20,6 +20,7 @@ The project communicates with an IVT heat pump using CAN bus (via an MCP2515 mod
 Install dependencies:
 ```bash
 pip install -r requirements.txt
+pip install HAP-python
 ```
 
 ## Raspberry Pi CAN Bus Setup
