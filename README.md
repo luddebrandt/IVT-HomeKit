@@ -20,7 +20,6 @@ The project communicates with an IVT heat pump using CAN bus (via an MCP2515 mod
 Install dependencies:
 ```bash
 pip install -r requirements.txt
-pip install HAP-python
 ```
 
 ## Raspberry Pi CAN Bus Setup
